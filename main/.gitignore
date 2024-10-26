@@ -1,0 +1,4 @@
+.env
+.idea
+node_modules
+db_data_back_up

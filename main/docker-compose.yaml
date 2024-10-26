@@ -1,0 +1,13 @@
+services:
+  db:
+    image: mariadb
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_DATABASE: restaurant_database
+    ports:
+    #PC port: VM port
+      - "3307:3306"
+    volumes:
+    #PC folder: VM folder
+      - ../init_db_docker:/docker-entrypoint-initdb.d
+      - ./db_data_back_up:/var/lib/mysql

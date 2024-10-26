@@ -1,0 +1,8 @@
+# Fichiers ignorés par défaut
+/shelf/
+/workspace.xml
+# Requêtes HTTP basées sur l'éditeur
+/httpRequests/
+# Fichiers de stockage local des sources de données ignorés
+/dataSources/
+/dataSources.local.xml
